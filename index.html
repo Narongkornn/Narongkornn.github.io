@@ -1,129 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course: CS100</title>
-    <style>
-        body {
-            font-family: Sarabun;
-        }
+    <title>Welcome</title>
+    
+    <link rel="stylesheet" href="css/style.css">
 
-        a {
-            text-decoration: none;
-            color: black;
-        }
-
-        p,
-        ul {
-            margin: 0;
-        }
-    </style>
 </head>
-
-<body style=" margin: 0 auto; max-width: 700px; min-width: 390px; padding: 5px;">
-
-    <div style="text-align: center;">
-        <h1>
-            <p>
-                Course
-            </p>
-            <p style="font-weight: lighter;">
-                CS100 BASIC WEB DEVELOPMENT
-            </p>
-        </h1>
-
-        <div style="display: block; margin: 20px 0; text-align: justify;">
-            <p style="color: #4040AA">
-                <strong>Description</strong>
-            </p>
-            <p>
-                Basic concepts in web development, web architecture, fundamentals of HTML and CSS, development cycles
-                with Git,
-                JavaScript programming, forms and validation, components of responsive web, deploying a website.
-            </p>
+<body>
+    <!-- Nav Start -->
+    <nav>
+        <div class="logo">
+            <a href="index.html" target="_self">Mysite</a>
         </div>
 
-        <div style="display: block;">
-            <div style="border: 1px solid rgb(167, 167, 167); padding: 20px; border-radius: 10px;">
-                <h2
-                    style="background-color: rgb(181, 232, 255); padding: 10px; margin: 5px 0; border: 1px solid rgb(167, 167, 167); border-radius: 10px;">
-                    Lecturers
-                </h2>
-
-                <div style="display: flex; gap: 5px;">
-
-                    <div
-                        style="flex: 50%; border: 1px solid rgb(167, 167, 167); background-color: rgb(253, 225, 174); border-radius: 10px;">
-                        <a href="https://cs.sci.tu.ac.th/2022/01/24/monvorath/" target="_blank">
-                            <div
-                                style="padding: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;">
-                                <p>
-                                    Asst. Prof. Dr. Monvorath Phongpaibul
-                                </p>
-                            </div>
-
-                            <img src="Lecture-MP1.png" width="100%">
-
-                            <div style="padding: 10px; text-align: left;">
-                                <p>
-                                    <strong>Contact:</strong> pmonvora@tu.ac.th
-                                </p>
-                                <p>
-                                    <strong>Research Interest:</strong>
-                                </p>
-                                <ul>
-                                    <li>Software economics</li>
-                                    <li>Software process and improvement</li>
-                                    <li>Software metrics</li>
-                                    <li>Process simulation</li>
-                                </ul>
-                            </div>
-
-                        </a>
-                    </div>
-
-                    <div
-                        style="flex: 50%; border: 1px solid rgb(167, 167, 167); background-color: rgb(224, 255, 139); border-radius: 10px;">
-                        <a href="https://cs.sci.tu.ac.th/2022/02/04/profile-วนิดา-พฤทธิวิทยา/" target="_blank">
-                            <div
-                                style="padding: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;">
-                                <p>
-                                    Asst. Prof. Dr. Wanida Putthividhya
-                                </p>
-                            </div>
-
-                            <img src="Lecture-WP2.png" width="100%">
-
-                            <div style="padding: 10px; text-align: left;">
-                                <p>
-                                    <strong>Contact:</strong> wanidap@cs.tu.ac.th
-                                </p>
-                                <p>
-                                    <strong>Research Interest:</strong>
-                                </p>
-                                <ul>
-                                    <li>Quality of Service (Network QoS)</li>
-                                    <li>Congestion Control</li>
-                                    <li>Network Security and Operating systems</li>
-                                </ul>
-                            </div>
-                        </a>
-                    </div>
+        <ul class="menu"> 
+            <li><a href="index.html" target="_self">Home</a></li>
+            <li><a href="html/myAdvisor.html">My advisor</a></li>
+            <li><a href="html/myActivities.html">My activities</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Nav End -->
+    
+    <!-- BAnner start -->
+    <section class="banner">
+        <div class="bannerinfo">
+            <h1>Welcome to my site</h1>
+            <p> <span>Do you think you know me well?</span> </p>
+        </div>    
+    </section>
+    <!-- Banner end -->
+    <section class="bannerlow">
+    </section>
+    
+    <main>
+            <div class="myimg">
+                <div class="box">
+                    <img src="image/IMG_6201.JPG" alt="นี่ผมเองฮับ">
                 </div>
-
-
-
             </div>
-        </div>
 
-        <div style="display: block; padding: 20px 0">
-            Copyright © 2023 CS100 Team
-        </div>
+            <div class="About">
+                <h2>About Me</h2>
+                
+                <p>ผมชื่อ <b>นายณรงค์กรณ์ มงคลสวะไชย</b> หรือคนอื่นเรียกผมกันว่า <b>บูม</b><br>อายุ 18 ปี
+                    และแน่นอนว่าผมกำลังศึกษาอยู่ใน <i>สาขาวิทยาการคอมพิวเตอร์</i>
+                    <br>และยังเป็นนักศึกษาของ <i>มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต</i><br>จบระดับชั้นมัธยมมาจากโรงเรียนบางปะกอกวิทยาคม <br>หลักสูตร Talent Enrichment Program 
+                    แต่ไม่บอกเกรดเฉลี่ยหรอกนะ จุ้บๆ
+                </p>
+                
+            </div>
 
-    </div>
+            <div class="talk">
+                <h2>
+                    Wacth me
+                </h2>
+                <p>เขินๆนิดนึงเลยอัดได้เพียงเท่านี้แหละครับทุกคนนน <br>และถ้าอยากรู้จักกันมากกว่านี้ เจอกันที่ไหนทักกันได้เลยย <br> ในมอนอกมอ ไม่หยิ่ง ไม่กัด ฉีดยาแล้วสองเข็มงับ
+                </p>
+            </div>
+            <div class="realvdo">
+                <div class="box2">
+                    <video src="VDO/IMG_6793.mp4" controls></video>
+                </div>
+            </div>
+            
+    </main>
+        
+
+    <!-- Footer start -->
+    <footer>
+        <div class="bra">
+            <p>Creaded September, 2023</p>
+        </div>
+        <div class="contact" id="contact">
+            
+            <div class="fb">
+                <h3>Contact :</h3>
+                <ul>
+                    <li>Facebook : Narongkorn Monkolsawachai</li>
+                    <li>Instagram : 24.nrkorn</li>
+                    <li>Line : boom4.7</li>
+                </ul>
+            </div>
+            <div class="logog">
+            <a title="add line" href="https://line.me/ti/p/vmLSPWwpFX?fbclid=IwAR2mkmplLKByIb_u1UjpTgTsz5YtJXmLZneqvOgKTjCv-t4EqA8L1KZ_lt8" target="_blank"> <img src="image/167309.png" alt="line"></a>
+            <a title="go to my IG profile" href="https://www.instagram.com/24.nrkorn/" target="_blank"> <img src="image/logo-ig-png-32464.png" alt="ig"></a>
+            <a title="go to my Facebook profile" href="https://www.facebook.com/profile.php?id=100010697531610" target="_blank"> <img src="image/fb.png" alt="Facebook"></a>
+            </div>
+    </footer>
+    
+    <!-- Footer end -->
 </body>
-
 </html>

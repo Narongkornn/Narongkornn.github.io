@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding: 25px;
+    background-color: rgb(0, 183, 229);
+    
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 40px;
+}
+
+.menu li a {
+    text-decoration: none; 
+    color: #fff;
+    font-size: 20px;
+}
+
+.advis{
+    background-color: rgb(95, 223, 255);
+    height: 70px;
+}
+
+.advis {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.advis h1{
+    font-weight: bolder;
+    color: #333;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.advisorpic{
+    display: flex;
+    justify-content: end;
+}
+
+.advisorpic img{
+    width: 300px;
+}
+
+.box3{
+    /* margin-left: 300px ;  */
+    width: min-content;
+    height: min-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    box-shadow: 10px 5px 5px #333;
+    border: 1px solid #333;
+
+}
+
+.decribe {
+    display: inline;
+    padding-top: 200px;
+}
+
+.decribe h3{
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* border: solid #fff; */
+    
+}
+
+.logog{
+    text-align: center;
+}
+
+.logog img{
+    width: 50px;
+}
+
+.fb{
+    display: flex;
+    padding-right: 230px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb ul{
+    list-style: none;
+    padding-left: 50px;
+    
+}
+
+.bra {
+    padding-right: 230px;
+}
